@@ -33,6 +33,8 @@ import org.junit.*;
  */
 public class GetPageIT {
 
+
+    public static final String PASSWORD = "password";
     // The CQAuthorClassRule represents an author service. The rule will read
     // the hostname and port of the author service from the system properties
     // passed to the tests.@ClassRule
