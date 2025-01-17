@@ -4,7 +4,7 @@
 
 WKND versions are compatible with the following versions of Adobe Experience Manager:
 
-| AEM version            | WKND version |
+| AEM version            | WKND version | 
 |:-----------------------|:------------------------------:|
 | AEM as a Cloud Service | 3.x                 |
 | 6.5 SP17               | 2.x, 3.x                       |
