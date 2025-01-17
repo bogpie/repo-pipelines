@@ -10,7 +10,7 @@ WKND versions are compatible with the following versions of Adobe Experience Man
 | 6.5 SP17               | 2.x, 3.x                       |
 
 ## Released artifacts
-
+  
 ![Maven CI](https://github.com/adobe/aem-guides-wknd/actions/workflows/maven.yml/badge.svg)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.adobe.aem.guides/aem-guides-wknd/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.adobe.aem.guides/aem-guides-wknd)
 14 NOV 2024, webhook test bpiele 
