@@ -3,7 +3,7 @@
 ## Before you release
 
 Make sure that all issues assigned to the current milestone have been closed and all necessary pull requests have been merged and closed out.  Don't proceed with the release until you know what you're releasing.
-
+ 
 ## Prerequisites 
 
 * You must have commit rights on this repository.
