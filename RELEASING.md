@@ -11,7 +11,7 @@ Make sure that all issues assigned to the current milestone have been closed and
 
 ## Release via GitHub Action
 
-### Run Release to OSSRH GitHub Action
+### Run Release to OSSRH GitHub Action  
 
 Release for this project is performed via GitHub Actions. The source file for the release is stored at: `.github/workflows/maven-release.yml` and dictates the workflow **Release to OSSRH**.
 
