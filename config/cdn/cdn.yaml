@@ -9,3 +9,8 @@ data:
         when: { reqProperty: path, equals: /block-me }
         action:
           type: block
+      - name: "Enable-SQL-Injection-and-XSS-waf-rules-globally"
+        when: { reqProperty: path, like: "*" }
+        action:
+          type: block
+          wafFlags: [ SQLI, XSS ]
