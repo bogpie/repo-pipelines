@@ -12,7 +12,7 @@ data:
             - reqProperty: path
               equals: '/block/me'
         action: block
-      - name: block-path
+      - name: block-path-secret
         when:
           allOf:
             - reqProperty: tier
