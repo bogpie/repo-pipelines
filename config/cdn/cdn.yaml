@@ -20,5 +20,5 @@ data:
             - reqProperty: path
               equals: '/block/secret'
             - reqHeader: "x-auth"
-              doesNotEqual: "secret"
+              doesNotEqual: "${{MY_SECRET}}"
         action: block
