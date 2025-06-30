@@ -12,13 +12,3 @@ data:
             - reqProperty: path
               equals: '/block/me'
         action: block
-      - name: block-path-secret
-        when:
-          allOf:
-            - reqProperty: tier
-              equals: "publish"
-            - reqProperty: path
-              equals: '/block/secret'
-            - reqHeader: "x-auth"
-              doesNotEqual: "${{MY_SECRET}}"
-        action: block
