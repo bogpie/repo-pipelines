@@ -1,0 +1,84 @@
+{
+  "subscriptionId": "0db92958-3ec7-42ed-89dd-ae47666126f5",
+  "resourceGroup": "cm-pl-va7-regr-dev",
+  "region": "eastus2",
+  "shareKey": "KEY_VAULT:https://cm-pl-va7-kvlt-dev.vault.azure.net/secrets/STORAGE-KEY",
+  "shareAccount": "cm0pl0va80stor0dev",
+  "imageRegistry": "cmpl0va80ctrg0dev.azurecr.io",
+  "imageRegistryUser": "cmpl0va80ctrg0dev",
+  "imageRegistryPassword": "KEY_VAULT:https://cm-pl-va7-kvlt-dev.vault.azure.net/secrets/DOCKER-REGISTRY-PASSWORD",
+  "volumeMountPath": "/artefacts",
+  "shareName": "19a95ba6-91f3-4c06-b69f-6861e80bc734",
+  "useBuildServiceResults": true,
+  "triggerBuildServiceAsync": true,
+  "environmentVars": [
+    {
+      "name": "REPOSITORY_URL",
+      "value": ""
+    },
+    {
+      "name": "SSH_PRIVATE_RSA_KEY_B64",
+      "value": "KEY_VAULT:https://cm-pl-va7-kvlt-dev.vault.azure.net/secrets/CUSTOMER-GIT-KEY-CMJEDIDEV"
+    },
+    {
+      "name": "PREVIOUS_PRODUCTION_VERSION",
+      "value": ""
+    },
+    {
+      "name": "SKIP_VERSIONING",
+      "value": "true"
+    },
+    {
+      "name": "CM_PIPELINE_ID",
+      "value": "500602"
+    },
+    {
+      "name": "CM_TARGET_SOLUTIONS",
+      "value": "aemassets,aemsites"
+    },
+    {
+      "name": "SKIP_TAGGING",
+      "value": "true"
+    },
+    {
+      "name": "ARTEFACT_PATH",
+      "value": "/artefacts"
+    },
+    {
+      "name": "TARGET_PLATFORM",
+      "value": "SKYLINE"
+    },
+    {
+      "name": "ARTIFACTS_VERSION",
+      "value": ""
+    },
+    {
+      "name": "CM_PIPELINE_NAME",
+      "value": "Non-Production Pipeline"
+    },
+    {
+      "name": "CM_PROGRAM_NAME",
+      "value": "muntean-prod"
+    },
+    {
+      "name": "TAG",
+      "value": ""
+    },
+    {
+      "name": "CM_PROGRAM_ID",
+      "value": "80405"
+    },
+    {
+      "name": "SKIP_CHANGELOG_GENERATION",
+      "value": "true"
+    },
+    {
+      "name": "CM_AEM_PRODUCT_VERSION",
+      "value": "aem-skyline-dff905f"
+    },
+    {
+      "name": "BRANCH",
+      "value": ""
+    }
+  ]
+}
